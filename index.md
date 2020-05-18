@@ -1,2 +1,2 @@
 - [University Degree](university-degree.json)
-- [DID Doc](/.well-known/did.json)
+- [DID Doc](https://digitalcredentials.github.io/samples/.well-known/did.json)
