@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    {
+      "@vocab": "https://digitalcredentials.mit.edu/"
+    }
+  ],
+  "type": [
+    "VerifiableCredential",
+    "UniversityDegreeCredential"
+  ],
+  "id": "urn:uuid:76540e30-e5df-11e9-85e2-7d52a8586afb",
+  "issuer": {
+    "id": "did:web:digitalcredentials.github.io",
+    "name": "McMaster University",
+    "image": "<dataUri.h5afLtaPA>"
+  },
+  "issuanceDate": "2020-03-10T04:24:12.164Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": "Person",
+    "givenName": "Mark",
+    "familyName": "Hamill",
+    "email": "hamill@not-really-mcmaster.ca",
+    "degree": {
+      "type": "BachelorDegree",
+      "name": "Bachelor of Science and Arts",
+      "description": "B.Sc Honours with Distinction ",
+      "image": "<dataUri.wAj8_SPdWS>"
+    }
+  },
+  "revocation": {
+    "id": "link-to-...",
+    "type": "SimpleRevocationContract"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2020-06-05T01:59:24Z",
+    "verificationMethod": "did:web:digitalcredentials.github.io#96K4BSIWAkhcclKssb8yTWMQSz4QzPWBy-JsAFlwoIs",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..FWghm-JQNcgz5Y9LVG5XtT0DUJZe0IY6N2xOQsrhWT312dz90PhDTug2rInKAzKWyMrXCmDSgEi_1QMERNgmCw"
+  }
+}
