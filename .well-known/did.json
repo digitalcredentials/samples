@@ -4,7 +4,7 @@
   "publicKey": [
     {
       "id": "did:web:digitalcredentials.github.io#96K4BSIWAkhcclKssb8yTWMQSz4QzPWBy-JsAFlwoIs",
-      "type": "JwsVerificationKey2020",
+      "type": "JsonWebKey2020",
       "controller": "did:web:digitalcredentials.github.io",
       "publicKeyJwk": {
         "kid": "96K4BSIWAkhcclKssb8yTWMQSz4QzPWBy-JsAFlwoIs",
